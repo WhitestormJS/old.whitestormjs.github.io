@@ -38,7 +38,7 @@ const sphere = new WHS.Sphere( {
 sphere.addTo(world);
 
 world.setControls(
-  WHS.firstPersonControls(sphere, {
+  new WHS.firstPersonControls(sphere, {
     block: document.getElementById('blocker'),
     speed: 5,
     ypos: 1
